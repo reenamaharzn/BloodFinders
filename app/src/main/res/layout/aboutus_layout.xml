@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="The  Blood Bank App puts the power to save lives in the palm of your hand. Donating blood  is easier than ever. Find nearby donors in map,  follow your blood’s journey from donation through delivery (when possible), and create or join a lifesaving team and track its impact on a national leaderboard. "
+        android:textColor="#333"></TextView>
+
+    <Button
+
+        android:id="@+id/objectives"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:text="Objectives "
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:text="The major objectives of this app are:\n
+        1.To create an atmosphere to make easily available blood all required in the country colected from non-remunerated voluntary blood donors.\n
+        2.To create public awareness and disseminate information on voluntary blood donation and safe blood .\n
+"
+        android:textColor="#333" />
+
+    <Button
+
+        android:id="@+id/donate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:text="Who Can/Cannot Donate.
+"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#333"
+        android:layout_margin="20dp"
+        android:text="Age: You must be at least 17 years old to donate to the general blood supply. There is no upper age limit for blood donation as long as you are well with no restrictions or limitations to your activities.\n\n
+
+High Blood Pressure: Acceptable as long as your blood pressure is below 180 systolic (first number) and below 100 diastolic (second number) at the time of donation. Medications for high blood pressure do not disqualify you from donating.\n\n
+
+Body Piercing: You must not donate if you have had a tongue, nose, belly button or genital piercing in the past 12 months (donors with pierced ears are eligible).\n\n
+
+Cold and Flu: Wait if you have a fever or a productive cough (bringing up phlegm). Wait if you do not feel well on the day of donation. Wait until you have completed antibiotic treatment for sinus, throat or lung infection.\n\n
+
+Diabetes: Acceptable as long as it is well controlled, whether medication is taken or not.\n\n
+
+Diet: A meal is recommended at least four hours prior to donation. Drink plenty of fluids.\n\n
+
+MSM: Men who have had sex with other men, at any time since 1977 (the beginning of the AIDS epidemic in the United States) are currently deferred as blood donors. This is because MSM are, as a group, at increased risk for HIV, hepatitis B and certain other infections that can be transmitted by transfusion.\n\n
+
+Tattoos: One-year deferral.\n\n
+
+Travel: Please refer to Centers for Disease Control and Prevention.\n\n
+
+Weight: You must weigh at least 110 pounds to be eligible for blood donation for your own safety. Blood volume is in proportion to body weight. Donors who weigh less than 110 pounds may not tolerate the removal of the required volume of blood as well as those who weigh more than 110 pounds. There is no upper weight limit as long as your weight is not higher than the weight limit of the donor bed or lounge you are using. You can discuss any upper weight limitations of beds and lounges with your local health historian.\n\n
+
+Other criteria that will be assessed at the time of donation such as (list is not all inclusive):\n\n
+
+Hemoglobin, Travel, Cancer, Medications, Hepatitis, and HIV Risk:\n
+
+Intravenous drug abusers: HIV, HBV, HCV and HTLV\n
+Transplant patients: animal tissue or organs\n\n
+People who have recently traveled to or lived abroad in certain countries may be excluded because they are at risk for transmitting agents such as malaria or variant Creutzfeldt-Jakob Disease (vCJD).\n
+ "/>
+</LinearLayout>
+</ScrollView>
